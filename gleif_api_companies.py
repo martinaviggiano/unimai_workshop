@@ -45,8 +45,8 @@ class GleifClient:
             result.append((id_item, legal_name, legal_country))
         return result
 
-    def get_leis(self, parent: str, level: ChildenType) -> List[Tuple[str, str]]:
-        url = self.API_V1_URL + "/lei-records/" + parent + "/" + level.value
+    def get_leis(self, parent: str, relationship: ChildenType) -> List[Tuple[str, str]]:
+        url = self.API_V1_URL + "/lei-records/" + parent + "/" + relationship.value
         response = self.make_api_request(url)
         result = self.__parse_response(response=response)
 
