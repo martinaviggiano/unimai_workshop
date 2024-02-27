@@ -10,11 +10,14 @@ In the field of data analytics, it is crucial to be able to retrieve, organise a
 
 ## Installation
 
+```
+pip install unimai_workshop
+```
 
 ## Usage
 
 ```python
-from gleif_api_companies import GleifClient
+from results.gleif_api_companies import GleifClient
 
 gleif_client = GleifClient()
 
