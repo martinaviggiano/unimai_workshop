@@ -4,7 +4,7 @@ This repository contains the exercises of UnimAI workshop "Data Analytics in Cen
 
 ## Description
 
-In the field of data analytics, it is crucial to be able to retrieve, organise and analyse data, as well as carefully manage metadata. The provided explanations and exercises offer an overview of some daily tasks in the production and analysis of dataset.
+In the field of data analytics, it is crucial to be able to retrieve, organise and analyse data, as well as carefully manage metadata. The provided explanations and exercises offer an overview of some daily tasks in the production and analysis of statistical dataset
 [GLEIF API](https://documenter.getpostman.com/view/7679680/SVYrrxuU?version=latest#40ef2ec4-b8bd-46de-8ad5-5359ed828242) was used to retrieve real entities data.
 <u>NOTE</u>: The datasets present in the repo contain artificial data: data entries were randomly generated, and casually assigned to elements extracted via GLEIF API.
 
